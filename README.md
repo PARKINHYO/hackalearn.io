@@ -5,6 +5,8 @@
 
 HackaLearn 클라우드 스킬 챌린지의 <a target="_blank" href="https://docs.microsoft.com/ko-kr/learn/modules/create-deploy-static-webapp-gatsby-app-service/">Gatsby 및 Azure Static Web Apps를 사용하여 정적 웹앱 만들기</a>를 학습하고 azure로 배포한 <a target="_blank" href="https://nice-beach-04ceafd00.azurestaticapps.net/">hackalearn 소개 페이지</a>입니다.
 
+<br><br>
+
 ## 설치 및 배포 방법
 
 ### Gatsby 설치 및 사용
@@ -27,7 +29,7 @@ Gatsby 실행
 $ cd myApp
 $ gatsby develop
 ```
-<br><br>
+<br>
 
 ### 기본 앱에서 소스코드 수정하기
 
@@ -35,7 +37,7 @@ $ gatsby develop
 * [src/images/gatsby-icon.png](https://github.com/PARKINHYO/hackalearn.io/blob/master/src/images/gatsby-icon.png)
 * [gatsby-config.js](https://github.com/PARKINHYO/hackalearn.io/blob/master/gatsby-config.js)
 
-<br><br>
+<br>
 
 ### 빌드 및 Github에 코드 푸시
 
@@ -61,7 +63,7 @@ $ git remote add origin https://github.com/<user>/gatsby-app.git
 $ git push -u origin master
 ```
 
-<br><br>
+<br>
 
 ### Static Web Apps에 배포
 
@@ -93,7 +95,10 @@ Github 작업 검토하기, 사이트 확인하기
 
 ![image](https://docs.microsoft.com/ko-kr/learn/modules/create-deploy-static-webapp-gatsby-app-service/media/static-app-portal.png)
 
-Github Actions에 의해 레포를 Azure Static Web Apps에 자동 배포한다. [레포의 actions 코드](https://github.com/PARKINHYO/hackalearn.io/blob/master/.github/workflows/azure-static-web-apps-nice-beach-04ceafd00.yml), [레포의 액션탭 확인](https://github.com/PARKINHYO/hackalearn.io/actions) 사이트의 로직을 수정하여 Commit 할 때마다 Github Actions이 Azure Static Web Apps 실시간으로 배포해준다. 
+Github Actions에 의해 레포를 Azure Static Web Apps에 자동 배포한다. [레포의 actions 코드](https://github.com/PARKINHYO/hackalearn.io/blob/master/.github/workflows/azure-static-web-apps-nice-beach-04ceafd00.yml), [레포의 액션탭 확인](https://github.com/PARKINHYO/hackalearn.io/actions) 
+
+사이트의 로직을 수정하여 Commit 할 때마다 Github Actions이 Azure Static Web Apps 실시간으로 배포해준다. 
 
 ![image](https://docs.microsoft.com/ko-kr/learn/modules/create-deploy-static-webapp-gatsby-app-service/media/static-app-portal-finished.png)
 
+________________________
